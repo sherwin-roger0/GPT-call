@@ -18,8 +18,8 @@ def bot_response():
 
 @app.route('/get_result', methods=['POST'])
 def get_name():
-    openai.api_key = "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"
-    os.environ["OPENAI_API_KEY"] = "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"
+    openai.api_key = ""
+    os.environ["OPENAI_API_KEY"] = ""
 
     response = VoiceResponse()
     
