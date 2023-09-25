@@ -1,8 +1,8 @@
 from twilio.rest import Client
 from twilio.twiml.voice_response import VoiceResponse
 
-account_sid = 'AC800aca2064e968ee465ec1563691636f'
-auth_token = 'b8130ba09974aeba4c1ad72ef29bd7c1'
+account_sid = ''
+auth_token = ''
 client = Client(account_sid, auth_token)
 
 def generate_twiml():
